@@ -10,6 +10,20 @@ This web app classifies penalty kick directions into five categories using a Con
 - Trained on: Custom dataset of 5 directions
 - Framework: TensorFlow + Streamlit
 
+
+## Model Performance
+
+After training the InceptionV3 model with fine-tuning, the following validation metrics were achieved:
+
+| Metric             | Value  |
+|--------------------|--------|
+| Validation Accuracy| 0.9179 |
+| Validation Precision| 0.9179 |
+| Validation Recall  | 0.9104 |
+| Validation AUC     | 0.9946 |
+| Validation F1 Score| 0.9141 |
+
+
 ### 🚀 How to Run Locally
 ```
 cd app
